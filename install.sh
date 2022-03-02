@@ -474,7 +474,7 @@ if [[ $1 == "develop" ]];then
 	wget -q -N --no-check-certificate -O /usr/local/bin/ssr https://git.fdos.me/stack/AR-B-P-B/raw/develop/ssr
 	chmod +x /usr/local/bin/ssr
 else
-	wget -q -N --no-check-certificate -O /usr/local/bin/ssr https://git.fdos.me/stack/AR-B-P-B/raw/master/ssr
+	wget -q -N --no-check-certificate -O /usr/local/bin/ssr wget -q -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/SSR-Bash-Python/master/install.sh && bash install.sh
 	chmod +x /usr/local/bin/ssr
 fi
 
